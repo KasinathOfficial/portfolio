@@ -1,0 +1,349 @@
+header{
+    background-color: whitesmoke;
+    padding: 0px 250px;
+}
+header .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .head img{
+    width: 110px;
+    height: 110px;
+}
+header .head .head-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .head .head-1 a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #000000;
+    font-size: 16px;
+}
+header .head .head-1 a:hover{
+    color: rgb(11, 159, 159);
+}
+
+main{
+    padding: 0px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main h2{
+    color: rgb(11, 159, 159);
+    font-size: 30px;
+}
+main h1{
+    font-size: 40px;
+}
+main p{
+    font-size: 17px;    
+    line-height: 25px;
+}
+main .main-1 button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: rgb(11, 159, 159) solid 2px;
+    background-color: rgb(11, 159, 159);
+    color: #ffffff;
+    font-weight: 600;
+}
+main img{
+    width: 350px;
+    height: 550px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+}
+.about .about-1{
+    padding-left: 30px;
+}
+.about .about-1 h2{
+    color: rgb(11, 159, 159);
+    font-size: 30px;
+}
+.about .about-1 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.about .about-1{
+    margin-left: 20px;
+}
+.about .about-1 table tr td{
+    padding-left: 10px;
+}
+.about .about-1 a{
+    color: #000000;
+    text-decoration: none;
+}
+.about .about-1 button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: rgb(11, 159, 159) solid 2px;
+    background-color: rgb(11, 159, 159);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.mywork{
+    padding: 0px 250px;
+    margin: 40px 0px;
+}
+.mywork h1{
+    color: rgb(11, 159, 159);
+}
+.mywork .myworks .myworks-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #000000 solid;
+}
+.mywork .myworks .myworks-3{
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 25px 0px;
+}
+.mywork .myworks .myworks-3 button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: rgb(11, 159, 159) solid 2px;
+    background-color: rgb(11, 159, 159);
+    color: #ffffff;
+    font-weight: 600;
+}
+.mywork .myworks .myworks-1 img{
+    width: 230px;
+    height: 230px;
+    margin: 0px 5px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    color: rgb(11, 159, 159);
+}
+.contact form{
+    background-color: whitesmoke;
+    width: 280px;
+    padding: 20px;
+}
+.contact form label{
+    text-align: left;
+    font-size: 18px;
+}
+.contact form label small{
+    color: red;
+}
+.contact form input{
+    margin: 10px 0px;
+    width: 250px;
+    height: 30px;
+}
+.contact form textarea{
+    margin: 10px 0px;
+    width: 250px;
+    height: 70px;
+    resize: none;
+}
+.contact form button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: rgb(11, 159, 159) solid 2px;
+    background-color: rgb(11, 159, 159);
+    color: #ffffff;
+    font-weight: 600;
+}
+.contact i{
+    font-size: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.contact i:hover{
+    transform: scale(1.2,1.2);
+    color: rgb(11, 159, 159);
+}
+
+/*.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment .card{
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
+    padding: 5px 25px;
+    width: 300px;
+    height: 230px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+.payment .card .donate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment .card h2{
+    color: #ffffff;
+}
+.payment .card .donate input{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    padding-left: 10px;
+}
+.payment .card .donate button{
+    width: 80px;
+    height: 30px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: rgb(11, 159, 159);
+}*/
+
+.mywork .education ul{
+    line-height: 40px;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.sucess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sucess button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: rgb(11, 159, 159) solid 2px;
+    background-color: rgb(11, 159, 159);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 20px 0px;
+}
+
+
+@media (max-width:500px){
+    header{
+        padding: 0px;
+    }
+    main{
+        flex-direction: column;
+        padding: 0px;
+    }
+    main .main-1{
+        padding: 30px 5px 10px 40px;
+    }
+    main h2,.about .about-1 h2{
+        font-size: 20px;
+    }
+    main h1{
+        font-size: 30px;
+    }
+    main p,.about .about-1 p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    main img{
+        width: 280px;
+        height: 400px;
+    }
+    .about{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .about .about-1{
+        padding: 10px;
+    }
+    .about img{
+        width: 250px;
+        height: 280px;
+        border: 5px rgb(11, 159, 159) solid;
+        margin: 10px 0px;
+    }
+    .mywork{
+        padding: 0px 0px;
+        margin: 30px 0px;
+    }
+    
+    .mywork .myworks .myworks-3{
+        background-color: whitesmoke;
+        width: 100px;
+        padding: 0px 0px;
+    }
+    .mywork .myworks .myworks-1 img{
+        width: 100px;
+        height: 100px;
+        margin: 0px 2px;
+    }
+    .mywork .myworks .myworks-3 button{
+        width: 80px;
+        height: 20px;
+        border-radius: 20px;
+        border: rgb(11, 159, 159) solid 2px;
+        background-color: rgb(11, 159, 159);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .mywork .myworks .myworks-1 h2{
+        font-size: 14px;
+    }
+    .mywork .myworks .myworks-1 p{
+        font-size: 10px;
+    }
+    .mywork .myworks .myworks-3 h2{
+        font-size: 14px;
+    }
+    .mywork .education ul{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+}
+
+@media (max-width:1100px){
+    header{
+        padding: 0px 5px;
+    }
+    .about{
+        padding: 0px 5px;
+    }
+    .about img{
+        width: 350px;
+        height: 400px;
+    }
+    main{
+        padding: 0px;
+    }
+    main .main-1{
+        padding: 0px 0px 0px 30px;
+    }
+    .mywork{
+        padding: 0px;
+    }
+}
